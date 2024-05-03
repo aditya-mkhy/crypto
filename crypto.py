@@ -604,8 +604,6 @@ class __Main__():
             print(colored(' Examples :- \n', 'cyan'))
             p='      1) crypto -enc -p mahadev -f c:/user../ -rn \n'+'      2) crypto -dec -p mahadev -f c:/user../ \n'+'      3) crypto -ext mp4   -f c:/user../ \n'
             print(colored(p, 'yellow'))
-            print('\n')
-            print(colored(' @_Aditya_Mukhiya_', 'magenta'))
             
             sys.exit(1)
         if file == None:
